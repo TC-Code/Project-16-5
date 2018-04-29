@@ -3,6 +3,7 @@ import uuid from "uuid";
 import style from "./App.css";
 import Title from "../components/Title";
 import TodoList from "../components/TodoList";
+import { hot } from "react-hot-loader";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -19,6 +20,10 @@ class App extends React.Component {
         {
           id: 3,
           text: "feed my cat"
+        },
+        {
+          id: 4,
+          text: "do shopping"
         }
       ]
     };
@@ -48,4 +53,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default hot(module)(App);
