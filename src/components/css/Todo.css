@@ -1,0 +1,22 @@
+li {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 5px 0;
+  position: relative;
+}
+
+.BtnDeleteItem {
+  position: absolute;
+  left: -40px;
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  box-shadow: 2px 2px 2px #000000;
+}

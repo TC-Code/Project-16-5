@@ -78,7 +78,29 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext);\", \"\"]);\n\n// module\nexports.push([module.i, \".RZpE5wmk5GxQcgwuydZ6W {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n  text-align: center;\\n}\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"Title\": \"RZpE5wmk5GxQcgwuydZ6W\"\n};\n\n//# sourceURL=webpack:///./src/components/css/Title.css?./node_modules/css-loader??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".RZpE5wmk5GxQcgwuydZ6W {\\n  text-align: center;\\n}\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"Title\": \"RZpE5wmk5GxQcgwuydZ6W\"\n};\n\n//# sourceURL=webpack:///./src/components/css/Title.css?./node_modules/css-loader??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js??ref--5-1!./src/components/css/Todo.css":
+/*!*************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./src/components/css/Todo.css ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"li {\\n  list-style: none;\\n  text-transform: uppercase;\\n  display: flex;\\n  align-items: center;\\n  margin: 15px 0;\\n  padding: 5px 0;\\n  position: relative;\\n}\\n\\nbutton {\\n  position: absolute;\\n  left: -40px;\\n  cursor: pointer;\\n  width: 26px;\\n  height: 26px;\\n  border-radius: 50%;\\n  margin-right: 10px;\\n  border: 2px solid #ff0000;\\n  color: #ff0000;\\n  box-shadow: 2px 2px 2px #000000;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/css/Todo.css?./node_modules/css-loader??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js??ref--5-1!./src/components/css/TodoList.css":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./src/components/css/TodoList.css ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/components/css/TodoList.css?./node_modules/css-loader??ref--5-1");
 
 /***/ }),
 
@@ -89,7 +111,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"._2xo2biYT1s9XQmHhT2Utv5 {\\n    background-color: #F5F5F5;\\n    color: #222;\\n    display: flex;\\n    flex-direction: column;\\n    flex-wrap: nowrap;\\n    justify-content: center;\\n    align-items: center;\\n    align-content: center;\\n    width: 100vw;\\n    height: 100vh;\\n}\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"TodoApp\": \"_2xo2biYT1s9XQmHhT2Utv5\"\n};\n\n//# sourceURL=webpack:///./src/containers/App.css?./node_modules/css-loader??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext);\", \"\"]);\n\n// module\nexports.push([module.i, \"body {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n}\\n\\n._2xo2biYT1s9XQmHhT2Utv5 {\\n  background-color: #f5f5f5;\\n  color: #222;\\n  display: flex;\\n  flex-direction: column;\\n  flex-wrap: nowrap;\\n  justify-content: center;\\n  align-items: center;\\n  align-content: center;\\n  width: 100vw;\\n  height: 100vh;\\n}\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"TodoApp\": \"_2xo2biYT1s9XQmHhT2Utv5\"\n};\n\n//# sourceURL=webpack:///./src/containers/App.css?./node_modules/css-loader??ref--5-1");
 
 /***/ }),
 
@@ -452,6 +474,30 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 
 /***/ }),
 
+/***/ "./src/components/Todo.js":
+/*!********************************!*\
+  !*** ./src/components/Todo.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Todo = __webpack_require__(/*! ./css/Todo.css */ \"./src/components/css/Todo.css\");\n\nvar _Todo2 = _interopRequireDefault(_Todo);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Todo = function (_React$Component) {\n  _inherits(Todo, _React$Component);\n\n  function Todo(props) {\n    _classCallCheck(this, Todo);\n\n    return _possibleConstructorReturn(this, (Todo.__proto__ || Object.getPrototypeOf(Todo)).call(this, props));\n  }\n\n  _createClass(Todo, [{\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      return _react2.default.createElement(\n        \"li\",\n        { className: _Todo2.default.Todo },\n        _react2.default.createElement(\n          \"button\",\n          { onClick: function onClick(event) {\n              return _this2.handleClick();\n            } },\n          \"\\u2716\"\n        ),\n        this.props.todo\n      );\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(event) {\n      this.props.remove(this.props.id);\n    }\n  }]);\n\n  return Todo;\n}(_react2.default.Component);\n\nexports.default = Todo;\n\n//# sourceURL=webpack:///./src/components/Todo.js?");
+
+/***/ }),
+
+/***/ "./src/components/TodoList.js":
+/*!************************************!*\
+  !*** ./src/components/TodoList.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _TodoList = __webpack_require__(/*! ./css/TodoList.css */ \"./src/components/css/TodoList.css\");\n\nvar _TodoList2 = _interopRequireDefault(_TodoList);\n\nvar _Todo = __webpack_require__(/*! ./Todo */ \"./src/components/Todo.js\");\n\nvar _Todo2 = _interopRequireDefault(_Todo);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar TodoList = function TodoList(props) {\n  var itemsToDo = props.data.map(function (item) {\n    return _react2.default.createElement(_Todo2.default, { key: item.id, id: item.id, todo: item.text, remove: props.remove });\n  });\n  return _react2.default.createElement(\n    \"ul\",\n    { className: _TodoList2.default.TodoList },\n    itemsToDo\n  );\n};\n\nexports.default = TodoList;\n\n//# sourceURL=webpack:///./src/components/TodoList.js?");
+
+/***/ }),
+
 /***/ "./src/components/css/Title.css":
 /*!**************************************!*\
   !*** ./src/components/css/Title.css ***!
@@ -460,6 +506,28 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!./Title.css */ \"./node_modules/css-loader/index.js??ref--5-1!./src/components/css/Title.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/css/Title.css?");
+
+/***/ }),
+
+/***/ "./src/components/css/Todo.css":
+/*!*************************************!*\
+  !*** ./src/components/css/Todo.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!./Todo.css */ \"./node_modules/css-loader/index.js??ref--5-1!./src/components/css/Todo.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/css/Todo.css?");
+
+/***/ }),
+
+/***/ "./src/components/css/TodoList.css":
+/*!*****************************************!*\
+  !*** ./src/components/css/TodoList.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!./TodoList.css */ \"./node_modules/css-loader/index.js??ref--5-1!./src/components/css/TodoList.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/css/TodoList.css?");
 
 /***/ }),
 
@@ -482,7 +550,7 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader??re
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _uuid = __webpack_require__(/*! uuid */ \"./node_modules/uuid/index.js\");\n\nvar _uuid2 = _interopRequireDefault(_uuid);\n\nvar _App = __webpack_require__(/*! ./App.css */ \"./src/containers/App.css\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nvar _Title = __webpack_require__(/*! ../components/Title */ \"./src/components/Title.js\");\n\nvar _Title2 = _interopRequireDefault(_Title);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App(props) {\n    _classCallCheck(this, App);\n\n    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\n    _this.state = {\n      data: []\n    };\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"addTodo\",\n    value: function addTodo(val) {\n      var todo = {\n        text: val,\n        id: _uuid2.default.v4()\n      };\n      var data = [].concat(_toConsumableArray(this.state.data), [todo]);\n      this.setState({ data: data });\n    }\n  }, {\n    key: \"removeTodo\",\n    value: function removeTodo(id) {\n      var remainder = this.state.data.filter(function (todo) {\n        return todo.id !== id;\n      });\n      this.setState({ data: remainder });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return _react2.default.createElement(\n        \"div\",\n        { className: _App2.default.TodoApp },\n        _react2.default.createElement(_Title2.default, { title: \"ToDo\", tasks: this.state.data.length })\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/containers/App.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _uuid = __webpack_require__(/*! uuid */ \"./node_modules/uuid/index.js\");\n\nvar _uuid2 = _interopRequireDefault(_uuid);\n\nvar _App = __webpack_require__(/*! ./App.css */ \"./src/containers/App.css\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nvar _Title = __webpack_require__(/*! ../components/Title */ \"./src/components/Title.js\");\n\nvar _Title2 = _interopRequireDefault(_Title);\n\nvar _TodoList = __webpack_require__(/*! ../components/TodoList */ \"./src/components/TodoList.js\");\n\nvar _TodoList2 = _interopRequireDefault(_TodoList);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App(props) {\n    _classCallCheck(this, App);\n\n    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\n    _this.state = {\n      data: [{\n        id: 1,\n        text: \"clean room\"\n      }, {\n        id: 2,\n        text: \"wash the dishes\"\n      }, {\n        id: 3,\n        text: \"feed my cat\"\n      }]\n    };\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"addTodo\",\n    value: function addTodo(val) {\n      var todo = {\n        text: val,\n        id: _uuid2.default.v4()\n      };\n      var data = [].concat(_toConsumableArray(this.state.data), [todo]);\n      this.setState({ data: data });\n    }\n  }, {\n    key: \"removeTodo\",\n    value: function removeTodo(id) {\n      var remainder = this.state.data.filter(function (todo) {\n        return todo.id !== id;\n      });\n      this.setState({ data: remainder });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return _react2.default.createElement(\n        \"div\",\n        { className: _App2.default.TodoApp },\n        _react2.default.createElement(_Title2.default, { title: \"ToDo\", tasks: this.state.data.length }),\n        _react2.default.createElement(_TodoList2.default, { data: this.state.data, remove: this.removeTodo.bind(this) })\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/containers/App.js?");
 
 /***/ }),
 
