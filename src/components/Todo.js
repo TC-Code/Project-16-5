@@ -8,7 +8,7 @@ class Todo extends React.Component {
   render() {
     return (
       <li className={style.Todo}>
-        <button onClick={event => this.handleClick()}>&#10006;</button>
+        <button className={style.BtnDeleteItem} onClick={event => this.handleClick()}>&#10006;</button>
         {this.props.todo}
       </li>
     );

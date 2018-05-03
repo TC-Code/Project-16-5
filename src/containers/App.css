@@ -16,3 +16,19 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+.BtnRemove {
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #ff0000;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.BtnRemove:active {
+  color: #ff0000;
+}
